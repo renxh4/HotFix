@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我查看代码"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/patch_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="代码修复" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我查看资源"/>
+
+    <Button
+        android:id="@+id/patch_resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="资源修复"/>
+
+    <Button
+        android:id="@+id/so"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我查看so"/>
+
+    <Button
+        android:id="@+id/so_patch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="so修复"/>
+
+</LinearLayout>
